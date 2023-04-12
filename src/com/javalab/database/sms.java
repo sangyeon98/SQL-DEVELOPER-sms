@@ -219,7 +219,7 @@ public class sms {
 			while (rs.next()) {
 				System.out.println(
 						rs.getInt("stu_id") + "\t" + rs.getString("stu_name") + "\t" + rs.getString("resident_id")
-								+ "\t" + rs.getCharacterStream("gender") + "\t" + rs.getString("address") + "\t"
+								+ "\t" + rs.getString("gender") + "\t" + rs.getString("address") + "\t"
 								+ rs.getInt("grade") + "\t" + rs.getInt("dept_id") + "\t" + rs.getString("dept_name"));
 
 			}
